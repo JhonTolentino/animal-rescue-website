@@ -3,107 +3,87 @@
 <head>
   <meta charset="utf-8">
   <title>Adopt</title>
-  <link href=".css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Oswald|Quattrocento" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Quattrocento" rel="stylesheet">
 </head>
 <body>
   <main>
-    <header class="">
-      <div class="">
-        <h1>The Animals Guardian Society</h1>
+
+    <header>
+      <h1>Adopt a Pet</h1>
         <nav>
-          <ul class="list-group">
-            <li><a href="index.html">Homepage</a></li>
+          <ul class="nav">
+            <li><a href="index.html">Home</a></li>
             <li><a href="rescues.html">Rescues</a></li>
+            <li><a href="adopt.html">Adopt a Pet</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </nav>
-        <img src="" alt="">
+
+      <div class="banner">
+        <img class="banner-image" style="width:100%" src="images/lady-and-pet.jpg" alt="">
       </div>
+
     </header>
   </main>
 
   <section>
-    <h2>Animal Guardians Adoption Applocation</h2>
+    <h2>Animal Guardians Adoption Application</h2>
     <p>Please fill in as much information as possible in each tab. If the application is not complete, we cannot consider you for one of our dogs.</p>
   </section>
 
   <form action="/action_page.php">
-    <fieldset>
-      <legend>Personal information:</legend>
-      First name:<br>
-      <input type="text" name="firstname"><br>
-      Last name:<br>
-      <input type="text" name="lastname"><br>
-      Age:<br>
-      <input type="text" name="firstname"><br>
-      Address:<br>
-      <input type="text" name="firstname"><br>
-      City:<br>
-      <input type="text" name="firstname"><br>
-      Province:<br>
-      <input type="text" name="firstname"><br>
-      Postal Code:<br>
-      <input type="text" name="firstname"><br>
-      Email Address:<br>
-      <input type="text" name="firstname"><br>
-      Phone Number:<br>
-      <input type="text" name="firstname"><br>
-      Your Employer:<br>
-      <input type="text" name="firstname"><br>
-      Phone:<br>
-      <input type="text" name="firstname"><br>
-      Job Title:<br>
-      <input type="text" name="firstname"><br>
-      Employed Since:<br>
-      <input type="text" name="firstname"><br>
-      Number of Children:<br>
-      <input type="text" name="firstname"><br>
-      Ages:<br>
-      <input type="text" name="firstname"><br>
-      <input type="submit" value="Submit">
+    <fieldset class="form">
+      <h2>Personal information</h2>
+      <div class="form-box">
+        <label for="firstname">First name:</label>
+        <input type="text" name="firstname"><br>
+        <label for="lastname">Last name:</label>
+        <input type="text" name="lastname"><br>
+        <label for="age">Age:</label>
+        <input type="text" name="age"><br>
+        <label for="address">Address:</label>
+        <input type="text" name="address"><br>
+        <label for="city">City:</label>
+        <input type="text" name="city"><br>
+        <label for="province">Province:</label>
+        <input type="text" name="province"><br>
+        <label for="postalcode">Postal Code:</label>
+        <input type="text" name="postal"><br>
+        <label for="email">Email Address:</label>
+        <input type="text" name="email"><br>
+        <label for="phone">Phone Number:</label>
+        <input type="text" name="phone"><br>
+        <label for="employer">Your Employer:</label>
+        <input type="text" name="job"><br>
+        <label for="phone">Phone</label>
+        <input type="text" name="job-phone"><br>
+        <label for="job-title">Job Title:</label>
+        <input type="text" name="job-title"><br>
+        <label for="employed">Employed Since:</label>
+        <input type="text" name="employed"><br>
+        <input type="submit" value="Submit">
+      </div>
     </fieldset>
   </form>
 
-  <forms>
-    <fieldset>
-      <legend>Your Lifestyle</legend>
-      First name:<br>
-      <input type="text" name="firstname"><br>
-      Last name:<br>
-      <input type="text" name="lastname"><br>
-      Age:<br>
-      <input type="text" name="firstname"><br>
-      Address:<br>
-      <input type="text" name="firstname"><br>
-      City:<br>
-      <input type="text" name="firstname"><br>
-      Province:<br>
-      <input type="text" name="firstname"><br>
-      Postal Code:<br>
-      <input type="text" name="firstname"><br>
-      Email Address:<br>
-      <input type="text" name="firstname"><br>
-      Phone Number:<br>
-      <input type="text" name="firstname"><br>
-      Your Employer:<br>
-      <input type="text" name="firstname"><br>
-      Phone:<br>
-      <input type="text" name="firstname"><br>
-      Job Title:<br>
-      <input type="text" name="firstname"><br>
-      Employed Since:<br>
-      <input type="text" name="firstname"><br>
-      Number of Children:<br>
-      <input type="text" name="firstname"><br>
-      Ages:<br>
-      <input type="text" name="firstname"><br>
-      <input type="submit" value="Submit">
-    </fieldset>
-  </forms>
+  <footer class="grid">
+    <div class="hours unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+      <h5>Opening Hours:</h5>
+      <p>Animal visiitng hours are:<br>Monday - Sunday 2:00pm - 4:pm<br>Closed Tuesdays</p>
+      <p>The office telephone lines are open every day:<br>9:00am - 4:45pm<br>Closed Christmas Day, Boxing Day & New Year's Day</p>
+      <p>Telephone:<br>01564 823288</p>
+    </div>
+
+    <div class="address unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+      <h5>Address:</h5>
+      <p>The Animal Guardians<br>Ottawa, Toronto, Montreal<br>Canada<br>K1K 3E7</p>
+      <p>Email:<br>info@animalguardians.ca<br>fundraising@animalguardians.ca<br>accounts@animalguardians.ca</p>
+    </div>
+  </footer>
 </body>
 </html>
